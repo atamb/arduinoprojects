@@ -1,28 +1,28 @@
-#define kirmiziPin  9
-#define yesilPin  10
-#define maviPin  11
+#define redPin  9
+#define greenPin  10
+#define bluePin  11
 
 void setup()
 {
- pinMode(kirmiziPin, OUTPUT);
- pinMode(yesilPin, OUTPUT);
- pinMode(maviPin, OUTPUT);
+ pinMode(redPin, OUTPUT);
+ pinMode(greenPin, OUTPUT);
+ pinMode(bluePin, OUTPUT);
 }
 
 void loop()
 {
- renkAyarla(255, 0, 0); //kirmizi
+ renkAyarla(255, 0, 0); //red
  delay(900);
- renkAyarla(0, 255, 0); //yesil
+ renkAyarla(0, 255, 0); //green
  delay(900);
- renkAyarla(0, 0, 255); //mavi
+ renkAyarla(0, 0, 255); //blue
  delay(900);
  }
 
-void renkAyarla(int kirmizi, int yesil, int mavi)
+void renkAyarla(int red, int green, int blue)
 
 {
- analogWrite(kirmiziPin, kirmizi);
- analogWrite(yesilPin, yesil);
- analogWrite(maviPin, mavi);
+ analogWrite(redPin, red);
+ analogWrite(greenPin, green);
+ analogWrite(bluePin, blue);
 } 

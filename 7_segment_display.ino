@@ -22,13 +22,13 @@ void loop() {
   int i;
 
   for(i=0; i<10; i++){
-    Rakam(i);
+    Number(i);
     delay (750);
     }
 }
 
-void Rakam(int rakam){
-  switch(rakam) {
+void Number(int number){
+  switch(number) {
     case 0:
         digitalWrite(a,LOW);
         digitalWrite(b,LOW);

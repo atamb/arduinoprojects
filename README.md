@@ -31,8 +31,15 @@ Requires: 1xArduinoBoard(ArduinoUno,ArduinoNG,ArduinoMega etc.), 1xBreadboard, 1
 Project: Generally, arduino is not used for receiving entries in string type but with this project, the working principle of rgb LEDs can be better understood. In the code there is a question. If responder gives the correct answer the rgb LED lights green, If he/she gives the wrong answer the rgb LED lights red.
 
 
-1e-)distancemeter_with_rgb_led:
+1e-)distancemeter_with_rgb_led.ino:
 
 Requires: 1xArduinoBoard(ArduinoUno,ArduinoNG,ArduinoMega etc.), 1xBreadboard,  1xRGB LED, 1x ultrasonic sensor(HC-SR04), 3x330ohm resistor, 7x male to male jumper cable.
 
 Project: In this project, we will measure the distance with ultrasonic sensor and show the distance interval with rgb led. If distance measured less than 25cm, rgb led lights red. If distance measured between 25cm and 45 cm, rgb led lights blue and if distance measured greater than 45, the rgb led lights green.
+
+
+2-)measuring_temperature_with_dht.ino:
+
+Requires: 1xArduinoBoard(ArduinoUno,ArduinoNG,ArduinoMega etc.), 1xBreadboard, 1x dht22, 3x male to male jumper cable.
+
+Project: With this code you can measure the temperature and humidity. They will appear on the screen after the running code.

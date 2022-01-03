@@ -43,3 +43,9 @@ Project: In this project, we will measure the distance with ultrasonic sensor an
 Requires: 1xArduinoBoard(ArduinoUno,ArduinoNG,ArduinoMega etc.), 1xBreadboard, 1x dht22, 3x male to male jumper cable.
 
 Project: With this code you can measure the temperature and humidity. They will appear on the screen after the running code.
+
+3-)potentiometer.ino:
+
+Requires: 1xArduinoBoard(ArduinoUno,ArduinoNG,ArduinoMega etc.), 1xBreadboard, 1x potentiometer, 3x male to male jumper cable.
+
+Project: Potentiometer is a circuit element used to change the voltage in the circuit. In this code, I set up a circuit that will change the voltage value using a potentiometer and measure the voltage value every 0.4 seconds. 
